@@ -10,7 +10,7 @@ body{
   padding: 4em;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
-  background-image: url('https://i0.wp.com/boingboing.net/wp-content/uploads/2018/12/agifcolossaltd2opt.gif?fit=1&resize=620%2C4000&ssl=1');
+ background-color: rgba(0, 0, 0, 0.87);
     background-size: cover;
 }
 .line-1{

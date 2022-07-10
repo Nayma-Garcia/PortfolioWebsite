@@ -37,26 +37,58 @@ h1 {
   h2{
     color:rgb(44, 45, 46);
     font-size: 2rem;
+    text-align: center;
   }
+
+  .slide{
+    animation-name: slidein;
+    animation-duration: 2s;
+  }
+
+  @keyframes slidein {
+    from {
+      transform: translateY(100%);
+    }
+  
+    to {
+      transform: translateY(0%);
+    }
+  }
+
+ 
 
   h3{
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
     color:rgb(44, 45, 46);
   }
   h4{
     font-size: 2rem;
-    text-align: right;
+    text-align: center;
     color:rgb(44, 45, 46);
   }
 
   h5{
     font-size: 1.5rem;
-    text-align: right;
+    text-align: center;
     color:rgb(44, 45, 46);
   }
 
+  .slideTwo{
+    animation-name: slideTwo;
+    animation-delay: 2ms;
+    animation-duration: 2s;
+  }
+
+  @keyframes slideTwo {
+    from {
+      transform: translateY(100%);
+    }
   
+    to {
+      transform: translateY(0%);
+    }
+  }
 
   ul{
     font-size: 1rem;
@@ -157,4 +189,6 @@ a:active { background: #808f9f; }
 .navicon div:before { top: -7px; }
 
 .navicon div:after { top: 7px; }
+
+
 
