@@ -1,0 +1,51 @@
+html{
+    min-height: 100%;
+    overflow: hidden;
+  }
+html { overflow-y: scroll; }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body{
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgba(255,255,255,.75);
+    font-family: 'Anonymous Pro', monospace;  
+    background-image: url('https://media.tarkett-image.com/large/TH_24567080_24594080_24596080_24601080_24563080_24565080_24588080_001.jpg');
+      background-size: cover;
+  }
+
+
+
+
+h1 {
+    color:rgb(44, 45, 46);
+    font-family: 'Anonymous Pro', monospace;  
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 1.5;
+    
+   text-align: center;
+  }
+
+  hr {
+    border-style: none;
+    border-radius: 1rem;
+    width: 0.5rem; height: 0.5rem;
+    background-color: #222;
+    animation-name: extend;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+  }
+  @keyframes extend {
+    10% {
+      width: 0.5rem;
+    }
+    100% {
+      width: 90%;
+    }
+  }
