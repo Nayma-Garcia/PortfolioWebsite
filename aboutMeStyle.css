@@ -84,7 +84,7 @@ h9{
   text-align: left;
   color:rgb(44, 45, 46);
   display: inline-block;
-  padding-bottom: 15rem;
+  padding-top: 10rem;
   
 }
 h10{
@@ -99,7 +99,7 @@ h11{
   text-align: left;
   color:rgb(44, 45, 46);
   display: inline-block;
-  padding-bottom: 15rem;
+  padding-top: 0%;
 }
 
 
@@ -125,7 +125,7 @@ h11{
 
   .slideTwo{
     animation-name: slideTwo;
-    animation-delay: 2ms;
+    animation-delay: ms;
     animation-duration: 2s;
   }
 
@@ -141,7 +141,7 @@ h11{
 
   .slideLeft{
     animation-name: slideTwo;
-    animation-delay: 2ms;
+    animation-delay: 10ms;
     animation-duration: 2s;
   }
 
@@ -178,25 +178,7 @@ h11{
     font-size: 1rem;
   }
   
-  hr {
-    border-style: none;
-    border-radius: 1rem;
-    width: 0.5rem; height: 0.5rem;
-    background-color: #222;
-    animation-name: extend;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-  }
-  @keyframes extend {
-    10% {
-      width: 0.5rem;
-    }
-    100% {
-      width: 90%;
-    }
-  }
+
 
 
 
@@ -301,5 +283,7 @@ a:active { background: #808f9f; }
     display: table;
     clear: both;
     }
+
+
 
  
