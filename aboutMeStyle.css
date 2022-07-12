@@ -271,6 +271,7 @@ a:active { background: #808f9f; }
   content: "";
   display: table;
   clear: both;
+  height: fit-content;
   }
 
   .column1 {
@@ -282,6 +283,7 @@ a:active { background: #808f9f; }
     content: "";
     display: table;
     clear: both;
+    height: 5rem;
     }
 
 
