@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 
 /* Global */
 html{
@@ -6,74 +6,79 @@ html{
   overflow: hidden;
 }
 body{
-  height: calc(100vh - 8em);
-  padding: 4em;
-  color: rgba(255,255,255,.75);
-  font-family: 'Anonymous Pro', monospace;  
- background-color: rgba(0, 0, 0, 0.87);
-    background-size: cover;
+  background-color: rgba(30, 53, 37, 0.87);
 }
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-    color: whitesmoke;
+h1{
+  font-family: tahoma;
+  font-weight: 100;
+  color: rgba(215, 218, 216, 0.87);
+  font-size: 45rem;
+  margin: 0;
+  padding-bottom: 0%;
+  display: inline-block;
 }
-
-.line-2{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-    color: whitesmoke;
+h2{
+  font-family: tahoma;
+  font-weight: 100;
+  color: rgba(215, 218, 216, 0.87);
+  font-size: 45rem;
+  margin: 0;
+  padding-top: 25%;
+  padding-bottom: 0%;
+  text-align: left;
+  display: inline-block;
+}
+p{
+  text-align: right;
+  color: brown;
+  font-size: 2.5rem;
+  font-family: tahoma;
+  padding-top: 20%;
+  align-items: flex-end;
 }
 
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s 1 normal both;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 15em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
-
-
-.anim-typewriter2{
-    animation: typewriter 4s steps(44) 5s 1 normal both,
-               blinkTextCursor 500ms steps(44) 5s 1 normal both;
-  }
-  @keyframes typewriter{
-    from{width: 0;}
-    to{width: 15em;}
-  }
-  @keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
+.column {
+  float: left;
+  width: 25%;
   }
 
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: fit-content;
+  }
+
+  
+
+  .animation1{
+    animation-name: initials1;
+    animation-delay: 5ms;
+    animation-duration: 2s;
+  }
+  @keyframes initials1 {
+    from {
+      transform: translateX(-100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  .animation2{
+    animation-name: initials2;
+    animation-delay: 1ms;
+    animation-duration: 1s;
+  }
+  @keyframes initials2 {
+    from {
+      transform: translateX(-100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
 
 
-
- 
-
-a{
-    color: whitesmoke;
-}

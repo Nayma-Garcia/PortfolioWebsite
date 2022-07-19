@@ -112,6 +112,7 @@ h11{
     line-height: 1.5;
    text-align: left;
    padding-bottom: 25rem;
+   display: inline-block;
   }
 
   h5{
@@ -119,6 +120,7 @@ h11{
     text-align: right;
     color:rgb(44, 45, 46);
     padding-top: 10rem;
+    display: inline-block;
   }
 
 
