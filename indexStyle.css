@@ -30,12 +30,46 @@ h2{
 }
 p{
   text-align: right;
-  color: brown;
+  color: rgba(220, 193, 159, 0.87);
   font-size: 2.5rem;
   font-family: tahoma;
   padding-top: 20%;
   align-items: flex-end;
+  position: relative;
+  padding-right: 2rem;;
 }
+
+p2{
+  text-align: right;
+  color: rgba(220, 193, 159, 0.87);
+  font-size: 2.5rem;
+  font-family: tahoma;
+  padding-top: 30%;
+  position: relative;
+  padding-right: 2rem;
+  padding-left: 30.5rem;
+}
+
+p3{
+  text-align: right;
+  color: rgba(220, 193, 159, 0.87);
+  font-size: 2.5rem;
+  font-family: tahoma;
+  padding-top: 20%;
+  position: relative;
+  padding-right: 2rem;
+  padding-left: 30.5rem;
+}
+
+
+a{
+  text-decoration: none;
+  color: rgba(220, 193, 159, 0.87);
+  font-size: 2.5rem;
+  font-family: tahoma;
+
+}
+
 
 .column {
   float: left;
